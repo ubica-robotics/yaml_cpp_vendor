@@ -21,6 +21,10 @@ macro(build_yaml_cpp)
   list(APPEND extra_cmake_args "-DYAML_CPP_BUILD_CONTRIB=OFF")
   list(APPEND extra_cmake_args "-DBUILD_SHARED_LIBS=ON")
 
+  if(WIN32)
+    list(APPEND extra_cmake_args "-DYAML_CPP_DLL=1")
+  endif()
+
   if(WIN32 AND NOT ${CMAKE_VERBOSE_MAKEFILE})
     set(should_log ON)  # prevent warnings in Windows CI
   else()
