@@ -2,6 +2,11 @@
 Changelog for package yaml_cpp_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+6.0.0 (2019-04-11)
+------------------
+* Pass through compiler and c++ flags (`#4 <https://github.com/ros2/yaml_cpp_vendor/issues/4>`_)
+* Contributors: Emerson Knapp
+
 5.0.0 (2018-11-29)
 ------------------
 * Renaming rviz_yaml_cpp_vendor to yaml_cpp_vendor (`#1 <https://github.com/ros2/yaml_cpp_vendor/issues/1>`_)
