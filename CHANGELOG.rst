@@ -2,6 +2,11 @@
 Changelog for package yaml_cpp_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+6.0.1 (2019-05-08)
+------------------
+* Pass CMAKE_TOOLCHAIN_FILE if crosscompiling (`#6 <https://github.com/ros2/yaml_cpp_vendor/issues/6>`_)
+* Contributors: Esteve Fernandez
+
 6.0.0 (2019-04-11)
 ------------------
 * Pass through compiler and c++ flags (`#4 <https://github.com/ros2/yaml_cpp_vendor/issues/4>`_)
