@@ -2,6 +2,12 @@
 Changelog for package yaml_cpp_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+7.0.0 (2019-09-19)
+------------------
+* add .dsv file beside custom environment hook (`#7 <https://github.com/ros2/yaml_cpp_vendor/issues/7>`_)
+  Signed-off-by: Dirk Thomas <dirk-thomas@users.noreply.github.com>
+* Contributors: Dirk Thomas
+
 6.0.1 (2019-05-08)
 ------------------
 * Pass CMAKE_TOOLCHAIN_FILE if crosscompiling (`#6 <https://github.com/ros2/yaml_cpp_vendor/issues/6>`_)
