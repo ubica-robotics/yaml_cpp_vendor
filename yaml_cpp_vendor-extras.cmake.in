@@ -16,3 +16,5 @@ find_package(yaml-cpp CONFIG REQUIRED QUIET)
 
 set(yaml_cpp_vendor_LIBRARIES ${YAML_CPP_LIBRARIES})
 set(yaml_cpp_vendor_INCLUDE_DIRS ${YAML_CPP_INCLUDE_DIR})
+
+list(APPEND yaml_cpp_vendor_TARGETS yaml-cpp)
