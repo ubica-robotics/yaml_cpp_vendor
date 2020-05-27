@@ -2,6 +2,12 @@
 Changelog for package yaml_cpp_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+7.0.2 (2020-05-26)
+------------------
+* Append to CMAKE_C_FLAGS instead of overwriting (`#11 <https://github.com/ros2/yaml_cpp_vendor/issues/11>`_)
+* Export yaml-cpp via modern cmake (`#9 <https://github.com/ros2/yaml_cpp_vendor/issues/9>`_)
+* Contributors: Karsten Knese, dodsonmg
+
 7.0.1 (2020-04-27)
 ------------------
 
