@@ -65,22 +65,30 @@ macro(build_yaml_cpp)
   )
 endmacro()
 
-build_yaml_cpp()
+# NO_CMAKE_PACKAGE_REGISTRY used to avoid finding the library downloaded in WORKSPACE B
+# when building workspace A.
+# This should only find a system installed yaml-cpp and thus the environment hook isn't needed.
+find_package(yaml-cpp 0.6 QUIET NO_CMAKE_PACKAGE_REGISTRY)
+if(NOT yaml-cpp_FOUND)
+  build_yaml_cpp()
 
-if(WIN32)
-  ament_environment_hooks(env_hook/yaml_cpp_vendor_library_path.bat)
-  set(ENV_VAR_NAME "PATH")
-  set(ENV_VAR_VALUE "opt\\yaml_cpp_vendor\\bin")
-else()
-  ament_environment_hooks(env_hook/yaml_cpp_vendor_library_path.sh)
-  if(APPLE)
-    set(ENV_VAR_NAME "DYLD_LIBRARY_PATH")
+  if(WIN32)
+    ament_environment_hooks(env_hook/yaml_cpp_vendor_library_path.bat)
+    set(ENV_VAR_NAME "PATH")
+    set(ENV_VAR_VALUE "opt\\yaml_cpp_vendor\\bin")
   else()
-    set(ENV_VAR_NAME "LD_LIBRARY_PATH")
+    ament_environment_hooks(env_hook/yaml_cpp_vendor_library_path.sh)
+    if(APPLE)
+      set(ENV_VAR_NAME "DYLD_LIBRARY_PATH")
+    else()
+      set(ENV_VAR_NAME "LD_LIBRARY_PATH")
+    endif()
+    set(ENV_VAR_VALUE "opt/yaml_cpp_vendor/lib")
   endif()
-  set(ENV_VAR_VALUE "opt/yaml_cpp_vendor/lib")
+  ament_environment_hooks(env_hook/yaml_cpp_vendor_library_path.dsv.in)
+else()
+  message(STATUS "Found yaml-cpp ${yaml-cpp_VERSION} in path ${yaml-cpp_CONFIG}")
 endif()
-ament_environment_hooks(env_hook/yaml_cpp_vendor_library_path.dsv.in)
 
 ament_package(
   CONFIG_EXTRAS "yaml_cpp_vendor-extras.cmake.in"
