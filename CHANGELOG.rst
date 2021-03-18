@@ -2,6 +2,15 @@
 Changelog for package yaml_cpp_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Always preserve source permissions in vendor packages (`#22 <https://github.com/ros2/yaml_cpp_vendor/issues/22>`_)
+* Add an override flag to force vendored build (`#21 <https://github.com/ros2/yaml_cpp_vendor/issues/21>`_)
+* Reapply "Use system installed yaml-cpp 0.6 if available (`#8 <https://github.com/ros2/yaml_cpp_vendor/issues/8>`_)" (`#16 <https://github.com/ros2/yaml_cpp_vendor/issues/16>`_)
+* Revert "Use system installed yaml-cpp 0.6 if available (`#8 <https://github.com/ros2/yaml_cpp_vendor/issues/8>`_)" (`#15 <https://github.com/ros2/yaml_cpp_vendor/issues/15>`_)
+* Use system installed yaml-cpp 0.6 if available (`#8 <https://github.com/ros2/yaml_cpp_vendor/issues/8>`_)
+* Contributors: Ivan Santiago Paunovic, Scott K Logan, Sean Yen
+
 7.0.2 (2020-05-26)
 ------------------
 * Append to CMAKE_C_FLAGS instead of overwriting (`#11 <https://github.com/ros2/yaml_cpp_vendor/issues/11>`_)
