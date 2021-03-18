@@ -2,8 +2,8 @@
 Changelog for package yaml_cpp_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+7.1.0 (2021-03-18)
+------------------
 * Always preserve source permissions in vendor packages (`#22 <https://github.com/ros2/yaml_cpp_vendor/issues/22>`_)
 * Add an override flag to force vendored build (`#21 <https://github.com/ros2/yaml_cpp_vendor/issues/21>`_)
 * Reapply "Use system installed yaml-cpp 0.6 if available (`#8 <https://github.com/ros2/yaml_cpp_vendor/issues/8>`_)" (`#16 <https://github.com/ros2/yaml_cpp_vendor/issues/16>`_)
