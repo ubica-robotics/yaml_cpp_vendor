@@ -2,8 +2,8 @@
 Changelog for package yaml_cpp_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+8.0.0 (2022-02-04)
+------------------
 * Upgrade to yaml-cpp 0.7.0 (`#25 <https://github.com/ros2/yaml_cpp_vendor/issues/25>`_)
 * Contributors: Chris Lalancette
 
