@@ -2,6 +2,11 @@
 Changelog for package yaml_cpp_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+8.0.1 (2022-04-13)
+------------------
+* Add missing dependency on yaml-cpp (`#32 <https://github.com/ros2/yaml_cpp_vendor/issues/32>`_)
+* Contributors: Scott K Logan
+
 8.0.0 (2022-02-04)
 ------------------
 * Upgrade to yaml-cpp 0.7.0 (`#25 <https://github.com/ros2/yaml_cpp_vendor/issues/25>`_)
