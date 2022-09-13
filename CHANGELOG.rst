@@ -2,6 +2,14 @@
 Changelog for package yaml_cpp_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Sets CMP0135 policy behavior to NEW (`#36 <https://github.com/ros2/yaml_cpp_vendor/issues/36>`_)
+* Fixes policy CMP0135 warning for CMake >= 3.24 (`#35 <https://github.com/ros2/yaml_cpp_vendor/issues/35>`_)
+* build shared lib only if BUILD_SHARED_LIBS is set (`#34 <https://github.com/ros2/yaml_cpp_vendor/issues/34>`_)
+* Mirror rolling to master
+* Contributors: Audrow Nash, Cristóbal Arroyo, hannes09
+
 8.0.1 (2022-04-13)
 ------------------
 * Add missing dependency on yaml-cpp (`#32 <https://github.com/ros2/yaml_cpp_vendor/issues/32>`_)
