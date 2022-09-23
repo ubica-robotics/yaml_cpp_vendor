@@ -2,6 +2,11 @@
 Changelog for package yaml_cpp_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+7.0.3 (2022-09-23)
+------------------
+* Export YAML_CPP_DLL define on Windows (`#30 <https://github.com/ros2/yaml_cpp_vendor/issues/30>`_)
+* Contributors: Akash
+
 7.0.2 (2020-05-26)
 ------------------
 * Append to CMAKE_C_FLAGS instead of overwriting (`#11 <https://github.com/ros2/yaml_cpp_vendor/issues/11>`_)
