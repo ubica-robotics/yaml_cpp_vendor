@@ -2,6 +2,11 @@
 Changelog for package yaml_cpp_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Export YAML_CPP_DLL define on Windows (`#30 <https://github.com/ros2/yaml_cpp_vendor/issues/30>`_) (`#38 <https://github.com/ros2/yaml_cpp_vendor/issues/38>`_)
+* Contributors: Jacob Perron
+
 8.1.0 (2022-09-13)
 ------------------
 * Sets CMP0135 policy behavior to NEW (`#36 <https://github.com/ros2/yaml_cpp_vendor/issues/36>`_)
