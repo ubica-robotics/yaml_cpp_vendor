@@ -2,8 +2,8 @@
 Changelog for package yaml_cpp_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+8.1.1 (2022-11-02)
+------------------
 * Export YAML_CPP_DLL define on Windows (`#30 <https://github.com/ros2/yaml_cpp_vendor/issues/30>`_) (`#38 <https://github.com/ros2/yaml_cpp_vendor/issues/38>`_)
 * Contributors: Jacob Perron
 
