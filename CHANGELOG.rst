@@ -2,6 +2,11 @@
 Changelog for package yaml_cpp_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+8.0.2 (2023-01-10)
+------------------
+* Fixes policy CMP0135 warning for CMake >= 3.24 (`#35 <https://github.com/ros2/yaml_cpp_vendor/issues/35>`_) (`#41 <https://github.com/ros2/yaml_cpp_vendor/issues/41>`_)
+* Contributors: mergify[bot]
+
 8.0.1 (2022-04-13)
 ------------------
 * Add missing dependency on yaml-cpp (`#32 <https://github.com/ros2/yaml_cpp_vendor/issues/32>`_)
