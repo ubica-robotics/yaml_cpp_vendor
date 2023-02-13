@@ -2,6 +2,11 @@
 Changelog for package yaml_cpp_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* [rolling] Update maintainers - 2022-11-07 (`#40 <https://github.com/ros2/yaml_cpp_vendor/issues/40>`_)
+* Contributors: Audrow Nash
+
 8.1.1 (2022-11-02)
 ------------------
 * Export YAML_CPP_DLL define on Windows (`#30 <https://github.com/ros2/yaml_cpp_vendor/issues/30>`_) (`#38 <https://github.com/ros2/yaml_cpp_vendor/issues/38>`_)
