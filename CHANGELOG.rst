@@ -2,6 +2,9 @@
 Changelog for package yaml_cpp_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 8.1.2 (2023-02-13)
 ------------------
 * [rolling] Update maintainers - 2022-11-07 (`#40 <https://github.com/ros2/yaml_cpp_vendor/issues/40>`_)
