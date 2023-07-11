@@ -2,6 +2,12 @@
 Changelog for package yaml_cpp_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Switch to ament_cmake_vendor_package (`#43 <https://github.com/ros2/yaml_cpp_vendor/issues/43>`_)
+* Revamp the extras file to find the correct version. (`#42 <https://github.com/ros2/yaml_cpp_vendor/issues/42>`_)
+* Contributors: Chris Lalancette, Scott K Logan
+
 8.2.0 (2023-04-28)
 ------------------
 
