@@ -2,8 +2,8 @@
 Changelog for package yaml_cpp_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+8.3.1 (2023-12-26)
+------------------
 * Disable the -Wshadow warning when building under clang. (`#45 <https://github.com/ros2/yaml_cpp_vendor/issues/45>`_)
 * Contributors: Chris Lalancette
 
