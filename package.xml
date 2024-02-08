@@ -17,6 +17,7 @@
   <url type="website">https://github.com/jbeder/yaml-cpp</url>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>yaml-cpp</depend>
 
   <export>
     <build_type>ament_cmake</build_type>
